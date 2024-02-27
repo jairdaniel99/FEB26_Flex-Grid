@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grid</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style>
+      .grid-c {
+        display: grid;
+        background-color: lightblue;
+      }
+      .grid-i {
+        display: grid;
+        background-color: #444;
+        border-bottom: solid 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="sticky-top text-center">
+      <h1>Grid</h1>
+      <nav class="bg-primary">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="grid.html">Grid</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="flex.html">Flex</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="position-relative">
+      <h2>Tradition flow of HTML elements</h2>
+      <p class="d-inline">
+        Elements stack on top of each other, unless they are strings, images,
+        span and anchor tags to name a few.
+      </p>
+      <p class="d-inline">
+        <strong>Block</strong> elements start on a new line and stack on top of
+        another.
+      </p>
+      <p class="d-inline">
+        <strong>Inline</strong> elements do not start on a new line and only
+        take up as much width as necessary.
+      </p>
+      <p class="d-inline">
+        <strong>Inline-block</strong> elements are similar to inline elements,
+        but they can have a width and height.
+      </p>
+      <h2>
+        You can also assign the <strong>position</strong>property one of the
+        following values:
+      </h2>
+      <ul>
+        <li>static: this follows default flow of page.</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure iusto
+        mollitia voluptatem nihil magnam tempora atque incidunt ipsam
+        reprehenderit cumque dolorum assumenda possimus provident, modi aliquid
+        accusantium esse explicabo quaerat necessitatibus molestiae placeat,
+        enim consectetur maxime. Fugiat ab non nisi ipsam debitis quaerat ea
+        adipisci laborum, perspiciatis explicabo perferendis enim aperiam
+        excepturi odio pariatur quis iusto nemo consectetur obcaecati est ipsum
+        eius esse. Nam accusantium quia blanditiis amet quaerat possimus
+        repellendus ipsam voluptatum earum adipisci reprehenderit reiciendis
+        necessitatibus facere officiis in sunt quidem dolorem molestiae
+        consectetur, dolor odio? Optio rerum iusto sequi fuga fugiat qui,
+        quibusdam, laborum voluptates porro quo quisquam, ea omnis? Voluptatum
+        magni delectus ut cum ipsa at voluptatibus reprehenderit nostrum sint
+        laudantium rem, consectetur molestias voluptas maxime ratione. Qui nemo
+        excepturi deleniti rem ipsam consectetur eum repudiandae, ad illo sequi.
+        Illo iste omnis dicta eos doloribus, nesciunt veritatis rerum eveniet
+      </p>
+
+      <h2>Grid</h2>
+      <div class="grid-c">
+        <div class="grid-i">Grid Item</div>
+        <div class="grid-i">Grid Item</div>
+        <div class="grid-i">Grid Item</div>
+        <div class="grid-i">Grid Item</div>
+      </div>
+    </main>
+  </body>
+</html>
